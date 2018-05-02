@@ -10,10 +10,12 @@ function init() {
     const key = parseInt(e.detail || e.location);
 
     if (key === code[index]) {
+      console.log(e.detail)
       index ++;
 
       if (index === code.length) {
         alert("Hurray!");
+        console.log(code.length)
 
         index = 0;
       }
