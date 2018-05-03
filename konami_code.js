@@ -11,6 +11,7 @@ function init() {
 
     if (key === code[index]) {
       console.log(e.detail)
+      console.log(e.location)
       index ++;
 
       if (index === code.length) {
