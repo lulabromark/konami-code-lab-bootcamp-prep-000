@@ -15,7 +15,6 @@ function init() {
 
       if (index === code.length) {
         alert("Hurray!");
-        console.log(code.length)
 
         index = 0;
       }
