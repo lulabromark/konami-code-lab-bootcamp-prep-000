@@ -10,8 +10,6 @@ function init() {
     const key = parseInt(e.detail || e.location);
 
     if (key === code[index]) {
-      console.log('detail ', e.detail)
-      console.log('location ', e.location)
       index ++;
 
       if (index === code.length) {
